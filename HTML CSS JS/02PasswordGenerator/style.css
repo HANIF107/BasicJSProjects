@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#dd7b57, #268e9e);
+}
+
+.container{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: rgb(253, 234, 234);
+    box-shadow: 5px 5px 6px rgb(129, 129, 129), 8px 8px 0px rgb(122, 122, 122);
+}
+
+.container h1{
+    font-size: 25px;
+    margin-block: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputBox #copyIcon{
+    background-color: transparent;
+    border: none;
+}
+.inputBox #copyIcon i{
+    position: absolute;
+    top: 18px;
+    right: 8px;
+    font-size: 23px;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.passwordBox{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-block: 8px;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 20px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.genBtn{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(12, 83, 177);
+    color: white;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-block: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.genBtn:hover{
+    opacity: 0.8;
+}
